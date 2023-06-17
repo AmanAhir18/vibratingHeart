@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Vibrating Heart</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+      <div class="heart"></div>
+      <audio id="audio">
+    
+        <source src="heartbeat-01a.mp3" type="audio/mpeg"></source>
+        </audio>
+        <script>
+          window.addEventListener('event',() => {
+            document.getElementById("audio").play();
+          });
+        </script>
+</body>
+</html>
